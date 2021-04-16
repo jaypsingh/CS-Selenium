@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSelenium", "CSSelenium\CSSelenium.csproj", "{CA103A11-FAF9-43D2-9FD5-81022D10D629}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA103A11-FAF9-43D2-9FD5-81022D10D629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA103A11-FAF9-43D2-9FD5-81022D10D629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA103A11-FAF9-43D2-9FD5-81022D10D629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA103A11-FAF9-43D2-9FD5-81022D10D629}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEFFE8F2-E63F-4443-97FB-9D0A94B8AC7F}
+	EndGlobalSection
+EndGlobal
