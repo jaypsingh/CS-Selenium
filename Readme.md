@@ -2,7 +2,7 @@
 
 This is the basic architecture of CS and Selenium test:
 
-[Architecture Diagram](Architecture.PNG)
+[Architecture Diagram](/Architecture.PNG)
 
 This class contains multiple tests to demonstrate diffrent test scenarios.
 The tests demontrates how some we can use selenium webdriver and C# (with XUnit) to perform web application testing.
@@ -10,11 +10,11 @@ Please note that you can do the same thing with NUnit or MSTest or anyy other te
 We are perfoming tests on some of the open websites declared as constants in the class.
 You can grab the concept to test on the website of your choice.
 
-We are using the below versions for this demo
-Selenium Webdriver: 3.141.0
-Chrome Driver: 90.0
-Chrome: 90.0
-XUnit: 2.4.1
+* We are using the below versions for this demo
+	* Selenium Webdriver: 3.141.0
+	* Chrome Driver: 90.0
+	* Chrome: 90.0
+	* XUnit: 2.4.1
 
 
 Below are list of methods and description on the uses of these methods.
