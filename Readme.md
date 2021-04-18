@@ -2,7 +2,7 @@
 
 This is the basic architecture of CS and Selenium test:
 
-[Architecture Diagram](Architecture.PNG)
+[Architecture Diagram](/images/Architecture.PNG)
 
 This class contains multiple tests to demonstrate diffrent test scenarios.
 The tests demontrates how some we can use selenium webdriver and C# (with XUnit) to perform web application testing.
