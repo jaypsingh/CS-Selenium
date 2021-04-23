@@ -295,7 +295,7 @@ namespace CSSelenium
         /// This method demonstrates one of the many ways of locating a web element.
         /// Note that XPath is not the best way to locat eelement this will break easily if the XPath changes.
         /// Below concepts are demonstrated in this method:
-        /// - Finding the element by it's full XPath
+        /// - Finding the element by it's full XPath (Absolute XPath)
         /// </summary>
         [Fact]
         [Trait("Category", "Smoke")]
@@ -469,6 +469,30 @@ namespace CSSelenium
                 //Assert
                 Assert.Equal(expectedBuildText, actualBuildText);
                 Assert.Equal(expectedFirstNumber, actualFirstNumber);
+            }
+        }
+
+        /// <summary>
+        /// This method demonstrates one of the many ways of locating a web element.
+        /// Below concepts are demonstrated in this method:
+        /// - Finding an element by partial link text
+        /// </summary>
+        [Fact]
+        [Trait("Category", "Smoke")]
+        public void FindElementsByPartialLinkText()
+        {
+            using (IWebDriver driver = new ChromeDriver())
+            {
+                //Arrange                
+                driver.Navigate().GoToUrl(uiTestPlayUrl);
+                string expectedTitle = "Rubik's Cube PNG";
+
+                //Act
+                IWebElement labelElement = driver.FindElement(By.PartialLinkText("Rubik's"));
+                labelElement.Click();
+
+                //Assert
+                Assert.Equal(expectedTitle, driver.Title);
             }
         }
     }
