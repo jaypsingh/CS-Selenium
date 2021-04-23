@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="CSSeleniumDemo.cs" />
     <Compile Include="DemoHelper.cs" />
+    <Compile Include="FillFormElement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

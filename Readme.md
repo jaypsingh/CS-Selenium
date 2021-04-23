@@ -118,3 +118,29 @@ Below concepts are demonstrated in this method:
 This method demonstrates one of the many ways of locating a web element.
 Below concepts are demonstrated in this method:
 - Finding an element by partial link text
+
+### 17. Login()
+This method demonstrates how we can login to an application by filling the username and password.
+This demonstrates the below concepts
+- filling data in text field.
+- clicking login button
+
+### 18. EnterMessage()
+This method demonstrates how we can 
+- filling data in text field.
+
+### 19. EnterNumbersToGetTotal()
+This method also demonstrates how we can 
+- filling data in text field.
+
+### 20. SelectRadioButton()
+This method demonstrates how we can 
+- Select A Radio Button.
+
+### 21. SelectCheckBox() 
+This method demonstrates how we can 
+- Select A Check Box
+
+### 22. SelectFromDropdown()
+This method demonstrates how we can 
+- Select an item from dropdown list
