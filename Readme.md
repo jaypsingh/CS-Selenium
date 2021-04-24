@@ -144,3 +144,13 @@ This method demonstrates how we can
 ### 22. SelectFromDropdown()
 This method demonstrates how we can 
 - Select an item from dropdown list
+
+### 23. GetMultipleElementByCSSSelector()
+This method demonstrates one of the many ways of locating a web element.
+Below concepts are demonstrated in this method:
+- Finding multiple elements by CSS Selector by providing the path of CSS Selector
+
+### 24. SubmitForm()
+This method demonstrates how we can submit form by
+- .Submit() method
+- .Click method

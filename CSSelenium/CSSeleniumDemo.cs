@@ -237,6 +237,46 @@ namespace CSSelenium
             }
         }
 
+
+        /// <summary>
+        /// This method demonstrates one of the many ways of locating a web element.
+        /// Below concepts are demonstrated in this method:
+        /// - Finding multiple elements by CSS Selector by providing the path of CSS Selector
+        /// </summary>
+        [Fact]
+        [Trait("Category", "Smoke")]
+        public void GetMultipleElementByCSSSelector()
+        {
+            using (IWebDriver driver = new ChromeDriver())
+            {
+                var testURL = "https://www.seleniumeasy.com/test/bootstrap-dual-list-box-demo.html";
+                //Arrange                
+                driver.Navigate().GoToUrl(testURL);
+                var expectedListItemFirst = "bootstrap-duallist";
+                var expectedListItemSecond = "Dapibus ac facilisis in";
+                var expectedListItemThird = "Morbi leo risus";
+                var expectedListItemForth = "Porta ac consectetur ac";
+                var expectedListItemFifth = "Vestibulum at eros";
+
+                //Act
+                ReadOnlyCollection<IWebElement> listItems = driver.FindElements(By.CssSelector(".list-group > li"));
+                DemoHelper.Pause(1000);
+                var actualListItemFirst = listItems[0].Text;
+                var actualListItemSecond = listItems[1].Text;
+                var actualListItemThird = listItems[2].Text;
+                var actualListItemForth = listItems[3].Text;
+                var actualListItemFifth = listItems[4].Text;
+
+
+                //Assert
+                Assert.Equal(expectedListItemFirst, actualListItemFirst);
+                Assert.Equal(expectedListItemSecond, actualListItemSecond);
+                Assert.Equal(expectedListItemThird, actualListItemThird);
+                Assert.Equal(expectedListItemForth, actualListItemForth);
+                Assert.Equal(expectedListItemFifth, actualListItemFifth);
+            }
+        }
+
         /// <summary>
         /// This method demonstrates one of the many ways of locating a web element.
         /// Below concepts are demonstrated in this method:
