@@ -154,3 +154,22 @@ Below concepts are demonstrated in this method:
 This method demonstrates how we can submit form by
 - .Submit() method
 - .Click method
+
+### 25. ManageBrowerWindow()
+This method demonstrates the below concepts to
+- Maximize the window
+- Minimize the window
+- Set Window size
+- Set Window position
+- Make window fullscreen
+
+### 26. ManageNewWindow()
+This method demonstrates the below concepts to
+- Get handles of all open tabs
+- switch between tabs
+
+### 27. ManageSimpleAlerts()
+This method demonstrates the below concepts to
+- manage an alert box (get it's handle)
+- extract text of alert box.
+- accept the alert box
