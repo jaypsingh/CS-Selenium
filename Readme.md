@@ -173,3 +173,14 @@ This method demonstrates the below concepts to
 - manage an alert box (get it's handle)
 - extract text of alert box.
 - accept the alert box
+
+
+### 28. GetScreenShot()
+This method demonstrates the below concepts to
+- Get and Save screenshot of a page
+
+### 29. IntractWithIWebElementUsingActions()
+This method demonstrates another way of interacting with web page.
+Basically we can also use actions to interact with web page. 
+This page demonstrates Actions and how it can be used.
+- Actions
