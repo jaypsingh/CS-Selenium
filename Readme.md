@@ -197,20 +197,20 @@ This page demonstrates Actions and how it can be used.
 ## **Page Object Model**
 
 ### 32. POMLoadAppPage()
-This method is used to demonstrate the use of page object model.
+This method is used to demonstrate the use of **page object model**.
 This shows how using page oject model we can do the following:
 - Opening Chrome
 - Loading a webpage
 - Verifying the page title 
 - Verifying the page url
 
-### 32. IntractWithIWebElementUsingActions()
-This method is used to demonstrate the use of page object model.
+### 32. POMRefreshAppPage()
+This method is used to demonstrate the use of **page object model**.
 This shows how using page oject model we can do the following:
 - Refresh the web page
 
-### 33. IntractWithIWebElementUsingActions()
-This method is used to demonstrate the use of page object model.
+### 33. GoForwardOnAppPage()
+This method is used to demonstrate the use of **page object model**.
 This shows how using page oject model we can do the following:
 - Going back on the page
 - Going forward on the web page
