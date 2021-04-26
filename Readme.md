@@ -19,7 +19,7 @@ You can grab the concept to test on the website of your choice.
 
 Below are list of methods and description on the uses of these methods.
 
-## - **Selenium Basic Functions**
+## **- Selenium Basic Functions**
 
 ### 1. LoadAppPage():
 This method demonstrates the below concepts
@@ -126,7 +126,7 @@ This method demonstrates one of the many ways of locating a web element.
 Below concepts are demonstrated in this method:
 - Finding an element by partial link text
 
-## - **Fill and Submit HTML Form**
+## **- Fill and Submit HTML Form**
 
 ### 19. Login()
 This method demonstrates how we can login to an application by filling the username and password.
@@ -160,7 +160,7 @@ This method demonstrates how we can submit form by
 - .Click method
 
 
-## - **Browser Manipulation**
+## **- Browser Manipulation**
 
 ### 26. ManageBrowerWindow()
 This method demonstrates the below concepts to
@@ -194,7 +194,7 @@ This page demonstrates Actions and how it can be used.
 
 
 
-## - **Page Object Model**
+## **- Page Object Model**
 
 ### 32. POMLoadAppPage()
 This method is used to demonstrate the use of **page object model**.
