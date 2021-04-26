@@ -19,6 +19,8 @@ You can grab the concept to test on the website of your choice.
 
 Below are list of methods and description on the uses of these methods.
 
+## **Selenium Basic Functions**
+
 ### 1. LoadAppPage():
 This method demonstrates the below concepts
 - Opening Chrome
@@ -61,36 +63,41 @@ This method demonstrates one of the many ways of locating a web element.
 Below concepts are demonstrated in this method:
 - Finding the element by CSS Selector
 
-### 9. ClickOnElementByClass()
+### 9. GetMultipleElementByCSSSelector()
+This method demonstrates one of the many ways of locating a web element.
+Below concepts are demonstrated in this method:
+- Finding multiple elements by CSS Selector by providing the path of CSS Selector
+
+### 10. ClickOnElementByClass()
 This method demonstrates one of the many ways of locating a web element.
 Below concepts are demonstrated in this method:
 - Finding the element by it's class
 
-### 10. FindElementByTag()
+### 11. FindElementByTag()
 This method demonstrates one of the many ways of locating a web element. Also see FindElementsByTag() method that is used to find multiple elements of same tag.
 Below concepts are demonstrated in this method:
 - Finding the element by it's Tag
 
-### 11. FindElementByFullXPath()
+### 12. FindElementByFullXPath()
 This method demonstrates one of the many ways of locating a web element.
 Note that XPath is not the best way to locat eelement this will break easily if the XPath changes.
 Below concepts are demonstrated in this method:
 - Finding the element by it's full XPath (Absolute XPath)
 
-### 12. FindElementByRelativeXPath()
+### 13. FindElementByRelativeXPath()
 This method demonstrates one of the many ways of locating a web element.
 Note that XPath is not the best way to locat eelement this will break easily if the XPath changes.
 Below concepts are demonstrated in this method:
 - Finding the element by it's relative XPath
 
-### 13. WaitTillUsingLambdaFunction()
+### 14. WaitTillUsingLambdaFunction()
 This method demos how we can wait for an element to be available before we perform any action on it.
 This is a good practice for elements that might not be available on the screen instantly as soon as the page loads.
 Using this we can avoid using hardoded wait times.
 Below concepts are demonstrated here:
 - Using Explicit Wait
 
-### 14. WaitTillUsingPreBuiltFunction()
+### 15. WaitTillUsingPreBuiltFunction()
 This method demos how we can wait for an element to be available before we perform any action on it.
 This in continution of above WaitTill() funtion. 
 In this case instead of using a lambda method call we will use a pre-built funtion.
@@ -99,7 +106,7 @@ Using this we can avoid using hardoded wait times.
 Below concepts are demonstrated here:
 - Using Explicit Wait
 
-### 15. WaitTillUsingImplicitWiat()
+### 16. WaitTillUsingImplicitWiat()
 This method demos how we can use implicit wait to wait for an element to be available before we perform any action on it.
 This is more for demonstration and AVOID USING IT.
 Also NOTE that you cannot use implicit wait and explicit wait together. 
@@ -108,54 +115,54 @@ Below concepts are demonstrated here:
 - Using implicit Wait
 - Writing additional outputs
 
-### 16. FindElementsByTag()
+### 17. FindElementsByTag()
 This method demonstrates one of the many ways of locating a web element.
 Also see FindElementByTag() method that is used to find the first elements that is found of the given tag.
 Below concepts are demonstrated in this method:
 - Finding multiple elements by it's Tag
 
-### 17. FindElementsByPartialLinkText()
+### 18. FindElementsByPartialLinkText()
 This method demonstrates one of the many ways of locating a web element.
 Below concepts are demonstrated in this method:
 - Finding an element by partial link text
 
-### 17. Login()
+## **Fill and Submitt HTML Form**
+
+### 19. Login()
 This method demonstrates how we can login to an application by filling the username and password.
 This demonstrates the below concepts
 - filling data in text field.
 - clicking login button
 
-### 18. EnterMessage()
+### 20. EnterMessage()
 This method demonstrates how we can 
 - filling data in text field.
 
-### 19. EnterNumbersToGetTotal()
+### 21. EnterNumbersToGetTotal()
 This method also demonstrates how we can 
 - filling data in text field.
 
-### 20. SelectRadioButton()
+### 22. SelectRadioButton()
 This method demonstrates how we can 
 - Select A Radio Button.
 
-### 21. SelectCheckBox() 
+### 23. SelectCheckBox() 
 This method demonstrates how we can 
 - Select A Check Box
 
-### 22. SelectFromDropdown()
+### 24. SelectFromDropdown()
 This method demonstrates how we can 
 - Select an item from dropdown list
 
-### 23. GetMultipleElementByCSSSelector()
-This method demonstrates one of the many ways of locating a web element.
-Below concepts are demonstrated in this method:
-- Finding multiple elements by CSS Selector by providing the path of CSS Selector
-
-### 24. SubmitForm()
+### 25. SubmitForm()
 This method demonstrates how we can submit form by
 - .Submit() method
 - .Click method
 
-### 25. ManageBrowerWindow()
+
+## **Browser Manipulation**
+
+### 26. ManageBrowerWindow()
 This method demonstrates the below concepts to
 - Maximize the window
 - Minimize the window
@@ -163,24 +170,47 @@ This method demonstrates the below concepts to
 - Set Window position
 - Make window fullscreen
 
-### 26. ManageNewWindow()
+### 27. ManageNewWindow()
 This method demonstrates the below concepts to
 - Get handles of all open tabs
 - switch between tabs
 
-### 27. ManageSimpleAlerts()
+### 28. ManageSimpleAlerts()
 This method demonstrates the below concepts to
 - manage an alert box (get it's handle)
 - extract text of alert box.
 - accept the alert box
 
 
-### 28. GetScreenShot()
+### 29. GetScreenShot()
 This method demonstrates the below concepts to
 - Get and Save screenshot of a page
 
-### 29. IntractWithIWebElementUsingActions()
+### 30. IntractWithIWebElementUsingActions()
 This method demonstrates another way of interacting with web page.
 Basically we can also use actions to interact with web page. 
 This page demonstrates Actions and how it can be used.
 - Actions
+
+
+
+## **Page Object Model**
+
+### 32. POMLoadAppPage()
+This method is used to demonstrate the use of page object model.
+This shows how using page oject model we can do the following:
+- Opening Chrome
+- Loading a webpage
+- Verifying the page title 
+- Verifying the page url
+
+### 32. IntractWithIWebElementUsingActions()
+This method is used to demonstrate the use of page object model.
+This shows how using page oject model we can do the following:
+- Refresh the web page
+
+### 33. IntractWithIWebElementUsingActions()
+This method is used to demonstrate the use of page object model.
+This shows how using page oject model we can do the following:
+- Going back on the page
+- Going forward on the web page
