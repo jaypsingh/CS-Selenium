@@ -69,7 +69,9 @@
     <Compile Include="CSSeleniumPOMDemo.cs" />
     <Compile Include="DemoHelper.cs" />
     <Compile Include="FillFormElement.cs" />
+    <Compile Include="PageObjectModels\SampleAppPage.cs" />
     <Compile Include="PageObjectModels\SeleniumEasyPage.cs" />
+    <Compile Include="PageObjectModels\SeleniumTutorialPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

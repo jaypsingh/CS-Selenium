@@ -1,18 +1,18 @@
-﻿
+﻿using OpenQA.Selenium;
 
-using OpenQA.Selenium;
-using Xunit.Sdk;
 
 namespace CSSelenium.PageObjectModels
 {
-    class SeleniumEasyPage
+    
+    class SampleAppPage
     {
+
         private readonly IWebDriver Driver;
-        
-        const string HomeUrl = "https://www.seleniumeasy.com/test/";
+
+        const string HomeUrl = "http://uitestingplayground.com/sampleapp";
         const string PageTitle = "Selenium Easy - Best Demo website to practice Selenium Webdriver Online";
 
-        public SeleniumEasyPage(IWebDriver driver)
+        public SampleAppPage(IWebDriver driver)
         {
             Driver = driver;
         }
@@ -41,28 +41,5 @@ namespace CSSelenium.PageObjectModels
                 throw new System.Exception($"Failed to load the page {Driver.Url}");
             }
         }
-
-        public void RefreshPage()
-        {
-            Driver.Navigate().Refresh();
-        }
-
-        public void GoBackOnPage()
-        {
-            Driver.Navigate().Back();
-            Driver.Navigate().Forward();
-        }
-
-        public void GoForwardOnPage()
-        {
-            Driver.Navigate().Forward();
-        }
-
-        public SeleniumTutorialPage ClickSeleniumTutorialLink()
-        {
-            Driver.FindElement(By.LinkText("Selenium Tutorials")).Click();
-            return new SeleniumTutorialPage(Driver);
-        }
-
     }
 }

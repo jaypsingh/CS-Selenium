@@ -209,8 +209,9 @@ This method is used to demonstrate the use of **page object model**.
 This shows how using page oject model we can do the following:
 - Refresh the web page
 
-### 33. GoForwardOnAppPage()
-This method is used to demonstrate the use of **page object model**.
-This shows how using page oject model we can do the following:
-- Going back on the page
-- Going forward on the web page
+### 33. GoToSeleniumTutorialPage()
+This method is used to demonstrate how we can navigate to other page model.
+In this test we ate starting from SeleniumEasyPage() page model
+and in the run we are transiting to seleniumTutorialPage() model.
+This shows how we can do the following:
+- Navigate to other page model at run time.
